@@ -18,7 +18,7 @@ function darkmode(){
         document.documentElement.style.setProperty("--first-color", "#0d1117");
         document.documentElement.style.setProperty("--second-color", "black");
         document.documentElement.style.setProperty("--terciary-color", "#42a5f5");
-        document.getElementById("modo-oscuro").textContent = "desactivar modo oscuro";
+        document.getElementById("modo-oscuro").textContent = "modo claro";
         h2Info.forEach(h2 => {
             h2.style.color = "#42a5f5";
         });
@@ -26,7 +26,7 @@ function darkmode(){
         document.documentElement.style.setProperty("--first-color", "#963be7")
         document.documentElement.style.setProperty("--second-color", "#3b0962");
         document.documentElement.style.setProperty("--terciary-color", "#fd2c9a");
-        document.getElementById("modo-oscuro").textContent = "activar modo oscuro";
+        document.getElementById("modo-oscuro").textContent = "modo oscuro";
         h2Info.forEach(h2 => {
             h2.style.color = "#963be7";
         });

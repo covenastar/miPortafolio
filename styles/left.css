@@ -16,7 +16,7 @@ body > .left-container {
     align-items: center;
 }
 .img-profile {
-    width: 60%;
+    width: 50%;
     border-radius: 50%;
     margin: 0.5rem;
 }
@@ -37,7 +37,7 @@ header > .navbar-profile {
 }
 .navbar-profile > ul > li {
     list-style: none;
-    margin: 2rem;
+    margin: 1rem;
 }
 .navbar-profile > ul > li > a {
     color: #fff;

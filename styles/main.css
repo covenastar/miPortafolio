@@ -13,3 +13,23 @@ body {
     height: auto;
     display: flex;
 }
+@media (max-width: 768px) {
+    header > .navbar-profile > ul {
+        font-size: 1.5rem;
+    };
+    footer > #bx:hover {
+        font-size: 1.5rem;
+        border-radius: none ;
+        text-shadow: none ;
+    }
+}
+
+@media (max-width: 628px) {
+    main > button {
+        width: 7rem;
+        height: 2rem;
+        border-radius: 10%;
+        right: 1%;
+        top: 5%;
+    }
+}

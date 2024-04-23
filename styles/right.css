@@ -40,7 +40,6 @@
 }
 .card-projects {
     width: 18rem;
-    height: max-content;
     border-radius: 10px;
     background-color: var(--terciary-color);
     margin: 1rem;
