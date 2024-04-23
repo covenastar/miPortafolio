@@ -16,11 +16,14 @@ body {
 @media (max-width: 768px) {
     header > .navbar-profile > ul {
         font-size: 1.5rem;
-    };
+    }
     footer > #bx:hover {
         font-size: 1.5rem;
         border-radius: none ;
         text-shadow: none ;
+    }
+    header > .navbar-profile > ul > li > a:hover {
+        font-size: 1.5rem;
     }
 }
 
@@ -31,5 +34,13 @@ body {
         border-radius: 10%;
         right: 1%;
         top: 5%;
+    }
+}
+@media (max-width: 430px) {
+    header > .navbar-profile > ul {
+        font-size: 1rem;
+    }
+    header > .navbar-profile > ul > li > a:hover {
+        font-size: 1rem;
     }
 }
